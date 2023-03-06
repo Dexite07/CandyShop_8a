@@ -1,0 +1,29 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+.side{
+    width:20%;
+    height:100vh;
+    background-color:teal;
+    display: flex;
+    flex-direction:column;
+}
+img{
+    width: 250px;
+    height: 200px;
+    margin:55px;
+}
+hr{
+    color:rgb(1, 59, 59)
+}
+.explore{
+    width: 80%;
+    height:100vh;
+    background-image: linear-gradient(to top, white, lightgrey);
+}
